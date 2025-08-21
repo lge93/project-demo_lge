@@ -3,8 +3,7 @@ from utils import plot_gaussian_dist, plot_uniform_dist
 import pandas as pd
 import numpy as np
 
-
-st.title("Histogram Plotter")
+st.title("Histogram Plotter V2")
 
 selected_distribution = st.selectbox("Select a distribution", options=["Normal Distribution", "Uniform Dist"], index=0, key="dist")
 
