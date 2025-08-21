@@ -1,0 +1,14 @@
+// .devcontainer/devcontainer.json
+{
+    "name": "My Dev Container",
+    "build": {
+      "dockerfile": "../Dockerfile"  // relative to .devcontainer/
+    },
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "ms-python.python",
+      "ms-toolsai.jupyter"
+    ]
+  }
