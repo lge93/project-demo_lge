@@ -20,3 +20,5 @@ df = pd.DataFrame(np.random.randn(1000, 3), columns=['A', 'B', 'C'])
 st.pyplot(fig)
 
 st.dataframe(df.describe())
+
+df.head()
